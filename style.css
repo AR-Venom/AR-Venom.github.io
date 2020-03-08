@@ -34,10 +34,12 @@ body{
   text-decoration: none;
   font-weight: 700;
   margin-left: 20px;
+  margin-top: 16px;
   transition: color 0.3s;
 }
 .menu a:hover{
   color: #FFFFFF;
+  cursor: pointer;
 }
 .header{
   margin-top: 80px;
