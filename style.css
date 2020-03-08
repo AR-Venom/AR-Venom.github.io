@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+  background: #000000;
+}
+
+.navbar{
+  position: fixed;
+  height: 60px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background: #000000;
+  width: 100%;
+}
+.logotext a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bolder;
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.menu{
+  position: absolute;
+  right: 20px;
+}
+.menu a{
+  color: #DDDDDD;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+.menu a:hover{
+  color: #FFFFFF;
+}
+.header{
+  margin-top: 80px;
+}
+.btn{
+  display: none;
+  position: absolute;
+  right: 20px;
+}
+.btn:hover > span{
+  background: #FFFFFF;
+}
+.btn span{
+  display: block;
+  margin: 6px;
+  width: 40px;
+  height: 3px;
+  background: #DDDDDD;
+}
+p{
+  color: #FFFFFF;
+}
+@media only screen and (max-width : 600px) {
+  .navbar{
+    overflow: visible;
+  }
+  .menu{
+    width: 100%;
+    right: 0;
+    top: 60px;
+    background: #000000;
+    overflow: hidden;
+    max-height: 0;
+  }
+  .menu a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+  .btn{
+    display: block;
+    cursor: pointer;
+  }
+  .show{
+    max-height: 500px;
+  }
+}
