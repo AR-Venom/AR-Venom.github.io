@@ -88,19 +88,28 @@ p{
     max-height: 500px;
   }
 }
-
-.landing img{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 75%;
+.landing{
+  overflow: auto;
+}
+html {
+   width:100%;
+   height:100%;
+   background:url(unnamed.png) center center no-repeat;
+   background-color: #000000;
 }
 .landing p{
-  color: #FFFFFF;
   text-decoration: none;
   font-weight: 900;
   font-size: 2.08vw;
   letter-spacing: 6px;
   text-align: center;
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+}
+.landingscroll{
+  position: absolute;
+  bottom: 10px;
+  left: 48.5%;
+  width: 3%;
 }
