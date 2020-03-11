@@ -1,10 +1,14 @@
+/* Total Webpage Initialization */
 body{
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
   background: #000000;
 }
-
+p{
+  color: #FFFFFF;
+}
+/* Handles Header */
 .navbar{
   position: fixed;
   height: 60px;
@@ -59,9 +63,7 @@ body{
   height: 3px;
   background: #DDDDDD;
 }
-p{
-  color: #FFFFFF;
-}
+/* Handles Mobile Header */
 @media only screen and (max-width : 600px) {
   .navbar{
     overflow: visible;
@@ -87,29 +89,4 @@ p{
   .show{
     max-height: 500px;
   }
-}
-.landing{
-  overflow: auto;
-}
-html {
-   width:100%;
-   height:100%;
-   background:url(unnamed.png) center center no-repeat;
-   background-color: #000000;
-}
-.landing p{
-  text-decoration: none;
-  font-weight: 900;
-  font-size: 2.08vw;
-  letter-spacing: 6px;
-  text-align: center;
-  position: absolute;
-  bottom: 100px;
-  width: 100%;
-}
-.landingscroll{
-  position: absolute;
-  bottom: 10px;
-  left: 48.5%;
-  width: 3%;
 }
