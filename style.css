@@ -90,3 +90,21 @@ p{
     max-height: 500px;
   }
 }
+/*Just messing Around, But Keep this Class Just in Case*/
+.rotate {
+  height: 60vw;
+  width: 60vw;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  animation: rotation .1s infinite linear;
+  opacity: 100%;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
