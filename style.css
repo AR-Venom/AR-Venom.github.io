@@ -97,7 +97,6 @@ p{
   text-align: center;
 }
 .inner-width{
-  max-width: 1200px;
   margin: auto;
   padding: 40px;
   color: #ffffff;
@@ -111,6 +110,7 @@ p{
   padding-bottom: 10px;
 }
 .pe{
+  border-radius: 25px;
   float: left;
   width: calc(100% / 5);
   overflow: hidden;
