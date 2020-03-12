@@ -110,7 +110,7 @@ p{
 }
 
 
-/* Inserted*/
+/* Team*/
 .team-section{
   background: #000000;
   text-align: center;
@@ -136,6 +136,7 @@ p{
   padding: 40px 0;
   transition: 0.4s;
   font-weight: 700;
+  animation: 1s ease-out 0s 1 Blink;
 }
 .pe:hover{
   background: #ddd;
@@ -173,5 +174,13 @@ p{
 @media screen and (max-width:600px) {
   .pe{
     width: 100%;
+  }
+}
+@keyframes Blink {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
