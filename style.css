@@ -111,7 +111,6 @@ p{
   padding-bottom: 10px;
 }
 .pe{
-  border-radius: 25px;
   float: left;
   width: calc(100% / 5);
   overflow: hidden;
