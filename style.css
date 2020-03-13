@@ -4,6 +4,7 @@ body{
   padding: 0;
   font-family: 'Lato', sans-serif;
   background: #000000;
+  animation: 1s ease-out 0s 1 LogoFade;
 }
 p{
   color: #FFFFFF;
@@ -117,7 +118,6 @@ img.logo
 	left: 10%;
 	border-radius: 3px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
-  animation: 1s ease-out 0s 1 LogoFade;
 }
 img.logo:empty
 {
