@@ -174,9 +174,9 @@ img.logo:empty
   border-bottom: 4px solid;
   padding-bottom: 10px;
   animation:
-    typing .9s steps(40, end)
+/*    typing .9s steps(40, end)*/
 }
-/* The typing effect */
+/*
 @keyframes typing {
   from { width: 0 }
   to { width: 12.5% }
@@ -186,7 +186,7 @@ img.logo:empty
     from { width: 0 }
     to { width: 80% }
   }
-}
+}*/
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-right-color: transparent }
