@@ -90,6 +90,13 @@ p{
     max-height: 500px;
   }
 }
+.logo{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /*Team*/
 .team-section{
   background: #000000;
