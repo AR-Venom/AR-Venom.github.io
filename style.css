@@ -102,11 +102,28 @@ p{
   overflow: hidden;
 }
 .team-section h1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .1em; /* Adjust as needed */
   font-size: 40px;
   text-transform: uppercase;
   display: inline-block;
   border-bottom: 4px solid;
   padding-bottom: 10px;
+  animation:
+    typing .9s steps(40, end)
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 13% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-right-color: transparent }
+  50% { border-right-color: white; }
 }
 .pe{
   border-radius: 25px;
@@ -164,8 +181,11 @@ p{
 @keyframes Blink {
   0% {
     transform: translateY(100%);
+
+
   }
   100% {
     transform: translateY(0);
+
   }
 }
