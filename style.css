@@ -119,6 +119,7 @@ img.logo
 	left: 10%;
 	border-radius: 3px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+  visibility: visible;
 }
 img.logo:empty
 {
@@ -139,6 +140,7 @@ img.logo:empty
 }
 @keyframes LogoFade {
   0% {
+    visibility: visible;
     opacity: 1%;
   }
   100% {
