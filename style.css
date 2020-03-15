@@ -1,10 +1,14 @@
+
+/*   animation: 1s ease-out 0s 1 LogoFade;   */
+
+
+
 /* Total Webpage Initialization */
 body{
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
   background: #000000;
-  animation: 1s ease-out 0s 1 LogoFade;
   cursor: default;
 }
 p{
@@ -119,7 +123,6 @@ img.logo
 	left: 10%;
 	border-radius: 3px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
-  visibility: visible;
 }
 img.logo:empty
 {
@@ -143,7 +146,7 @@ img.logo:empty
     /* Required for IE 5, 6, 7 */
   	/* ...or something to trigger hasLayout, like zoom: 1; */
   	width: 100%;
-    
+
   	/* Theoretically for IE 8 & 9 (more valid) */
   	/* ...but not required as filter works too */
   	/* should come BEFORE filter */
@@ -191,7 +194,7 @@ img.logo:empty
 
   }
 }
-.landing {
+.landing{
   font-weight: 900;
   font-size: 1vw;
   text-transform: uppercase;
@@ -199,6 +202,11 @@ img.logo:empty
   top: 50%;
   left: 50%;
   transform: translate(-50%, -800%);
+}
+.continue{
+  position: absolute;
+  bottom: 10px;
+  width: 5%;
 }
 
 
