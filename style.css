@@ -32,6 +32,8 @@ p{
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+
 .menu{
   position: absolute;
   right: 20px;
@@ -189,8 +191,9 @@ p{
   border-bottom: 4px solid;
   padding-bottom: 10px;
   animation:
-/*    typing .9s steps(40, end)*/
 }
+/*    typing .9s steps(40, end)*/
+
 /*
 @keyframes typing {
   from { width: 0 }
@@ -257,6 +260,97 @@ p{
 }
 @media screen and (max-width:600px) {
   .pe{
+    width: 100%;
+  }
+}
+@keyframes Blink {
+  0% {
+    transform: translateY(100%);
+
+
+  }
+  100% {
+    transform: translateY(0);
+
+  }
+}
+/*-----------------------------Contact us-------------------------------------*/
+.contact{
+  background: #000000;
+  text-align: center;
+}
+.inner-width{
+  margin: auto;
+  padding: 40px;
+  color: #ffffff;
+  overflow: hidden;
+}
+.contact h1{
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  font-size: 40px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+  animation:
+}
+
+.co{
+  border-radius: 25px;
+  float: left;
+  width: calc(100% / 5);
+  overflow: hidden;
+  padding: 40px 0;
+  transition: 0.4s;
+  font-weight: 700;
+  animation: 1s ease-out 0s 1 Blink;
+}
+.co:hover{
+  background: #ddd;
+  color: #000000;
+  cursor: pointer;
+}
+.co img{
+  width: 120px;
+  height: 120px;
+}
+.c-name{
+  margin: 16px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.c-des{
+  font-style: italic;
+  text-align: center;
+}
+
+.c-sm{
+  margin-top: 12px;
+}
+.c-sm a{
+  margin: 0 4px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+.c-sm a:hover{
+  transform: scale(1.3);
+}
+.c-sm a i{
+  color: #333;
+  line-height: 30px;
+}
+@media screen and (max-width:1024px) {
+  .co{
+    width: calc(100% / 3);
+  }
+}
+@media screen and (max-width:600px) {
+  .co{
     width: 100%;
   }
 }
