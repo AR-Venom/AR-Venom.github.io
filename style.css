@@ -308,6 +308,16 @@ p{
   font-weight: 700;
   animation: 1s ease-out 0s 1 Blink;
 }
+.co1{
+  border-radius: 12px;
+  float: left;
+  width: calc(100% / 5);
+  overflow: hidden;
+  padding: 20px 0;
+  transition: 0.4s;
+  font-weight: 700;
+  animation: 1s ease-out 0s 1 Blink;
+}
 .co:hover{
   background: #ddd;
   color: #000000;
