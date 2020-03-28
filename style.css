@@ -168,8 +168,6 @@ p{
   }
 }
 /*---------------------------------Team-------------------------------------*/
-
-
 .team-section{
   background: #000000;
   text-align: center;
@@ -187,10 +185,8 @@ p{
   letter-spacing: .1em;
   font-size: 40px;
   text-transform: uppercase;
-  display: inline-block;
   border-bottom: 4px solid;
   padding-bottom: 10px;
-  animation:
 }
 /*    typing .9s steps(40, end)*/
 
@@ -275,103 +271,72 @@ p{
   }
 }
 /*-----------------------------Contact us-------------------------------------*/
-.contact{
-  background: #000000;
-  text-align: center;
-}
-.inner-width{
+.pagetitle{
   margin: auto;
   padding: 40px;
   color: #ffffff;
-  overflow: hidden;
-}
-.contact h1{
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .1em;
   font-size: 40px;
   text-transform: uppercase;
-  display: inline-block;
+  text-align: center;
   border-bottom: 4px solid;
   padding-bottom: 10px;
-  animation:
 }
-
-.co{
-  border-radius: 25px;
-  float: left;
-  width: calc(100% / 5);
-  overflow: hidden;
-  padding: 40px 0;
-  transition: 0.4s;
-  font-weight: 700;
-  animation: 1s ease-out 0s 1 Blink;
-}
-.co1{
-  border-radius: 12px;
-  float: left;
-  width: calc(100% / 5);
-  overflow: hidden;
-  padding: 20px 0;
-  transition: 0.4s;
-  font-weight: 700;
-  animation: 1s ease-out 0s 1 Blink;
-}
-.co:hover{
-  background: #ddd;
-  color: #000000;
-  cursor: pointer;
-}
-.co img{
-  width: 120px;
-  height: 120px;
-}
-.c-name{
-  margin: 16px 0;
-  text-transform: uppercase;
+.middle{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
   text-align: center;
 }
-.c-des{
-  font-style: italic;
-  text-align: center;
-}
-
-.c-sm{
-  margin-top: 12px;
-}
-.c-sm a{
-  margin: 0 4px;
+.btn2{
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  transition: 0.4s;
+  width: 90px;
+  height: 90px;
+  background: #000000;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
 }
-.c-sm a:hover{
+.btn2 i{
+  line-height: 90px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+.btn2:hover i{
   transform: scale(1.3);
+  color: #000000;
 }
-.c-sm a i{
-  color: #333;
-  line-height: 30px;
+.btn2::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #ffffff;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
 }
-@media screen and (max-width:1024px) {
-  .co{
-    width: calc(100% / 3);
-  }
+.btn2:hover::before{
+  animation: aaa 1s 1;
+  top: -10%;
+  left: -10%;
 }
-@media screen and (max-width:600px) {
-  .co{
-    width: 100%;
-  }
-}
-@keyframes Blink {
-  0% {
-    transform: translateY(100%);
-
-
-  }
-  100% {
-    transform: translateY(0);
-
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
   }
 }
