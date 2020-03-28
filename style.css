@@ -228,9 +228,11 @@ p{
 .p-name{
   margin: 16px 0;
   text-transform: uppercase;
+  color: #ffffff;
 }
 .p-des{
   font-style: italic;
+  color: #ffffff;
 }
 .p-sm{
   margin-top: 12px;
