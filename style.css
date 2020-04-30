@@ -13,14 +13,14 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
-.body{
+body{
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
   background: #000000;
   cursor: default;
 }
-.p{
+p{
   color: #FFFFFF;
 }
 /* Handles Header */
@@ -304,7 +304,7 @@ html {
 /*-----------------------------Contact us-------------------------------------*/
 .form{
   display: block;
-  margin-nleft: auto;
+  margin-left: auto;
   margin-right: auto;
   width: 50%;
   min-width: 350px;
@@ -394,7 +394,7 @@ html {
   }
 }
 /*-----------------------------Our Robots-------------------------------------*/
-/*.robot1{
+.robot1{
   border-radius: 25px;
   left: 20%
   width: 100%;

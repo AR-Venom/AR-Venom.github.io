@@ -13,14 +13,14 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
-.body{
+body{
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
   background: #000000;
   cursor: default;
 }
-.p{
+p{
   color: #FFFFFF;
 }
 /* Handles Header */
