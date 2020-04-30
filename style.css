@@ -308,6 +308,7 @@ p{
   width: 50%;
   min-width: 350px;
   margin-bottom: 100px;
+  overflow:hidden;
 }
 
 .pagetitleh1{
@@ -321,7 +322,7 @@ p{
   font-size: 40px;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .pagetitleh2{
   margin: auto;
