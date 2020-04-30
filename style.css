@@ -306,6 +306,7 @@ p{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  min-width: 350px;
 }
 
 .pagetitleh1{
