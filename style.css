@@ -185,8 +185,8 @@ p{
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width:800; 
-  height: 600px;
+  max-width: 800px; 
+  height: auto;
   top: 20%;
 
 }
