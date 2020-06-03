@@ -216,6 +216,10 @@ p{
   height: auto;
   top: 20%;
 }
+hr.rounded{
+  border-top: 8px solid #000000;
+  border-radius: 5px;
+}
 /*---------------------------------Team-------------------------------------*/
 .team-section{
   background: #000000;
