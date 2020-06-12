@@ -217,7 +217,7 @@ p{
   top: 20%;
 }
 hr {
- display: block;
+ /*display: block;*/
  height: 1px;
  border: 0;
  border-top: 1px solid #ccc;
@@ -468,7 +468,6 @@ hr {
 /*-----------------------------Blog-------------------------------------*/
 .blogcenter{
   margin: auto;
-  padding: 40px;
   color: #ffffff;
   overflow: hidden;
   white-space: nowrap;
@@ -486,7 +485,6 @@ hr {
 }
 .blogheading{
   margin: auto;
-  padding: 40px;
   color: #ffffff;
   overflow: hidden;
   white-space: nowrap;
@@ -496,4 +494,19 @@ hr {
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 10px;
+  position: fixed; /* or absolute */
+  top: 60%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.postp{
+  text-align:center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background: #000000;
+  color: white;
+  cursor: default;
+  font-size: 20px;
 }
