@@ -464,4 +464,36 @@ hr {
   text-align: center;
   padding-bottom: 20px;
 }
-*/
+
+/*-----------------------------Blog-------------------------------------*/
+.blogcenter{
+  margin: auto;
+  padding: 40px;
+  color: #ffffff;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.blogheading{
+  margin: auto;
+  padding: 40px;
+  color: #ffffff;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+}
