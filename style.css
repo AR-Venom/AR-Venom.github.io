@@ -405,11 +405,22 @@ hr {
   padding-bottom: 10px;
 }
 .middle{
+  padding-top: 100px;
   position: relative;
   top: 90%;
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
+}
+@media only screen and (max-width : 600px) {
+  .middle{
+    padding-top: 220px;
+    position: relative;
+    top: 90%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
 }
 .btn2{
   display: inline-block;
