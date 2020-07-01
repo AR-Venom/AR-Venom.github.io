@@ -566,7 +566,7 @@ hr {
 .pe1{
   border-radius: 50px;
   float: left;
-  width: calc(100% / 5);
+  width:100%;
   overflow: hidden;
   padding: 40px 0;
   transition: 0.4s;
