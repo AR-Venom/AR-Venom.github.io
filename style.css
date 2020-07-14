@@ -429,6 +429,19 @@ hr {
   text-align: left;
   padding-bottom: 10px;
 }
+.sidetitleh3{
+  margin: auto;
+  padding: 60px;
+  color: #ffffff;
+  overflow: hidden;
+  white-space: initial;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 10px;
+}
 .middle{
   padding-top: 100px;
   position: relative;
