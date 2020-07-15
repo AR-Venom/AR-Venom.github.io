@@ -622,3 +622,22 @@ hr {
   width: 120px;
   height: 120px;
 }
+.pe2{
+  border-radius: 1500px;
+  float: left;
+  width:100%;
+  overflow: hidden;
+  padding: 40px 0;
+  transition: 0.4s;
+  font-weight: 700;
+  animation: 1s ease-out 0s 1 Blink;
+}
+.pe2:hover{
+  background: #ddd;
+  color: #000000;
+  cursor: pointer;
+}
+.pe2 img{
+  width: 120px;
+  height: 120px;
+}
