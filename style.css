@@ -654,3 +654,28 @@ hr {
   width: 120px;
   height: 120px;
 }
+/*-----------------404-------------------*/
+.title404{
+  margin: auto;
+  color: #ffffff;
+  overflow: hidden;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  font-size: 20em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width : 600px) {
+  .title404{
+    margin: auto;
+    color: #ffffff;
+    overflow: hidden;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    font-size: 10em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
