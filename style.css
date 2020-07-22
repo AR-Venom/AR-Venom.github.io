@@ -338,7 +338,15 @@ hr {
   margin-bottom: 100px;
   overflow:hidden;
 }
-
+.form2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-width: 560px;
+  margin-bottom: 100px;
+  overflow:hidden;
+}
 .pagetitleh1{
   margin: auto;
   padding: 40px;
@@ -416,7 +424,7 @@ hr {
   font-size:20px;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 .sidetitleh1{
   margin: auto;
@@ -619,7 +627,7 @@ hr {
 .pe1{
   border-radius: 2500px;
   float: left;
-  width:100%;
+  width: 100%;
   overflow: hidden;
   padding: 40px 0;
   transition: 0.4s;
@@ -653,6 +661,12 @@ hr {
 .pe2 img{
   width: 120px;
   height: 120px;
+}
+.centered1 {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%, -10%);
 }
 /*-----------------404-------------------*/
 .title404{
