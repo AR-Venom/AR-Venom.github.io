@@ -338,7 +338,15 @@ hr {
   margin-bottom: 100px;
   overflow:hidden;
 }
-
+.form2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-width: 450px;
+  margin-bottom: 100px;
+  overflow:hidden;
+}
 .pagetitleh1{
   margin: auto;
   padding: 40px;
