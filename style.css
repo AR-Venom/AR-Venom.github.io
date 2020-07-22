@@ -624,6 +624,18 @@ hr {
 .card{
   padding-bottom: 25px;
 }
+.button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 .pe1{
   border-radius: 2500px;
   float: left;
@@ -632,7 +644,6 @@ hr {
   padding: 40px 0;
   transition: 0.4s;
   font-weight: 700;
-  animation: 1s ease-out 0s 1 Blink;
 }
 .pe1:hover{
   background: #ddd;
@@ -651,7 +662,6 @@ hr {
   padding: 40px 0;
   transition: 0.4s;
   font-weight: 700;
-  animation: 1s ease-out 0s 1 Blink;
 }
 .pe2:hover{
   background: #ddd;
@@ -666,7 +676,18 @@ hr {
     position: absolute;
     margin: auto;
     left: 50%;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%);
+}
+/*-------------------feed--------------------*/
+#instapost ul
+{
+list-style-type: none;
+}
+
+#instapost ul li {
+    width: 320px;
+    float: left;
+    margin-right: 10px;
 }
 /*-----------------404-------------------*/
 .title404{
