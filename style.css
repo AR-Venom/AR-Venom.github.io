@@ -596,7 +596,7 @@ hr {
 }
 .button {
   background-color: #000000;
-  border: none;
+  border: white;
   border radius: 12px;
   color: white;
   padding: 15px 32px;
