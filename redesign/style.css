@@ -217,3 +217,22 @@ h2 {
   }
 }
 /*-----------------------------------------------*/
+.parallax2 {
+  /* The image used */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("adam.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 600px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+}
