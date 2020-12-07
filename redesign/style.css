@@ -1,0 +1,219 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  background: #000;
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #00000070;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(125deg, #88888888, #787878);
+  border-radius: 10px;
+}
+
+::selection {
+  color: white;
+  background: white;
+}
+
+p {
+  text-align: justify;
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  height: 60px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.logotext a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 900;
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 16px;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+  text-transform: uppercase;
+}
+
+.logotext a:hover {
+  color: #fff;
+}
+
+/*.logo{
+  background: url(logo.png) no-repeat 50% 50%;
+  background-size: contain;
+  width: 180px;
+  height: 18px;
+  float: left;
+  margin-left:20px;
+}*/
+.menu {
+  position: absolute;
+  right: 20px;
+}
+
+.menu a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #fff;
+}
+
+.navbarspace {}
+
+.btn {
+  display: none;
+  position: absolute;
+  right: 20px;
+}
+
+.btn:hover>span {
+  background: #fff;
+}
+
+.btn span {
+  display: block;
+  margin: 6px;
+  width: 40px;
+  height: 3px;
+  background: #ddd;
+}
+
+@media only screen and (max-width : 600px) {
+  .navbar {
+    overflow: visible;
+  }
+
+  .menu {
+    width: 100%;
+    right: 0;
+    top: 60px;
+    background: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    max-height: 0;
+    transition: 1s;
+  }
+
+  .menu a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .btn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .show {
+    max-height: 500px;
+  }
+}
+
+/*---index-index-index-index-index-index-index---*/
+
+section {
+  display: flex;
+  height: 101vh;
+  align-items: center;
+  background-size: cover;
+  /*border-radius: 10px;*/
+}
+
+.red {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  letter-spacing: .1em;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+@keyframes bouncefade {
+  0% {
+    opacity: 10%;
+    -webkit-opacity: 0.1;
+    transform: translate(0px, -10px);
+  }
+
+  100% {
+    opacity: 100%;
+    -webkit-opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+.bounce {
+  animation-name: bouncefade;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+/*-----------------------------------------------*/
+.green {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.imgbg {
+  background-image: url('ActiveDuty.jpg');
+  background-position: center;
+}
+
+.parallax {
+  /* The image used */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("ActiveDuty.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 600px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+/*-----------------------------------------------*/

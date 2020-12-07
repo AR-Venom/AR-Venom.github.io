@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>AR: Venom</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logotext">
+      <a href="index.html">AR: Venom</a>
+    </div>
+    <a class="btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <div class="menu">
+      <a href="/">Home</a>
+      <a href="team.html">Team</a>
+      <a href="#">Robots</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="navbarspace">
+  </div>
+
+  <section style="background: #000;">
+    <div class="red">
+      <img src="Venom_logo.svg">
+      <h1>AR: Venom</h1>
+      <h2>First Tech Challenge Team 14892</h2>
+      <a href="#greenhop"><img src="downarrow.svg" class="bounce"></a>
+    </div>
+  </section>
+
+  <section id="greenhop" class="parallax">
+    <div class="green">
+      <img src="wearevenomimg.png" style="width: 100%;">
+      <h2>...a high-school FTC robotics team based in Alliance Academy for Innovation. We pride ourselves on our exceptional teamwork, our capacity for innovation, and most importantly, our ability to have fun!</h3>
+    </div>
+  </section>
+
+  <section style="background: #00f;">
+    <div class="blue">
+      <h1>Blue</h1>
+      <h3>Excitement. Energy. Passion.</h3>
+    </div>
+  </section>
+
+  <section style="background: #ff0;">
+    <div class="yelllow">
+      <h1>Yellow</h1>
+      <h3>Excitement. Energy. Passion.</h3>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+    $(".btn").on("click", function() {
+      $('.menu').toggleClass("show");
+    });
+  </script>
+</body>
+
+</html>
